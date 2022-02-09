@@ -1,7 +1,7 @@
 #include<stdio.h>
 int input_side()
 { int a;
-  printf("enter the values for three side for scalene triangle\n");
+  printf("enter the values for three sides of triangle\n");
   scanf("%d",&a);
   return a;
 }
@@ -24,11 +24,11 @@ void output(int a, int b, int c, int isscalene)
 {
   if(isscalene==0)
   {
-    printf("is not scalence\n");
+    printf("is not scalence triangle \n");
   }
    else
    {
-     printf("is scalene\n");
+     printf("is scalene triangle\n");
    }
 }
 int main()
