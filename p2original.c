@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//0
 int input_side()
 { int a;
   printf("enter the values for three sides of triangle\n");
